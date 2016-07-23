@@ -17,3 +17,5 @@ after_script:
 services:
   - redis-server
 sudo: false
+env:
+  - REDIS_PORT=6379
